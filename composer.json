@@ -1,0 +1,17 @@
+{
+    "name": "rabbitphp/http-cookies",
+    "description": "Http cookies component of rabbitphp framework",
+    "type": "component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kaktus",
+            "email": "kaktus@rabbitphp.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rabbit\\Http\\Cookies\\": "src"
+        }
+    }
+}
