@@ -52,7 +52,6 @@ class CookieData implements CookieDataInterface
      *
      */
     public function loadInformation() {
-        var_dump('okkk');
         setcookie($this->cookieName, $this->cookieValue, $this->cookieOptions['expiration'], $this->cookieOptions['path'], $this->cookieOptions['domain'], $this->cookieOptions['https'], $this->cookieOptions['httpOnly']);
     }
 

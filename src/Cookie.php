@@ -45,7 +45,7 @@ class Cookie implements CookieInterface
         if($this->hasClassData($name)) {
             return $this->cookies[$name];
         } else {
-            throw new CookieException("[Xirion\Http\Cookie\Cookie.php => get] The specified cookie $name doesn't exists");
+            throw new CookieException("[= Rabbit\Http\Cookie\Cookie->get() =] The specified cookie $name doesn't exists");
         }
     }
 
